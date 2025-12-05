@@ -115,7 +115,7 @@ Future<void> test() async {
 }
 
 Future<void> dec_03(bool verbose) async {
-  print('Day 2: Battery Banks');
+  print('Day 3: Battery Banks');
   await test();
   final String puzzleInputFilePath = './bin/resources/dec_03_input.txt';
   final String puzzleInput = await File(puzzleInputFilePath).readAsString();

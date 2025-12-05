@@ -15,6 +15,9 @@ class DayRegistry {
 
   /// Register a day
   static void register(int day, FutureOr<void> Function(bool) dayFunction) {
+    if (_days.containsKey(day)) {
+      throw Exception('Day $day is already registered.');
+    }
     _days[day] = dayFunction;
   }
 
