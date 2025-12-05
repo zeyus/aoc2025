@@ -24,8 +24,10 @@ This repository contains my solutions to the Advent of Code 2025 challenges, imp
 ## Project Structure
 
 - `bin/calendar/dec_XX.dart`: Contains the solution for Day XX.
-- `common/`: Contains a registry (maybe some other reusable code later).
-- `resources/`: Contains input files for each day's challenge.
+- `bin/common/`: Contains a registry (maybe some other reusable code later).
+- `bin/resources/`: Contains input files for each day's challenge.
+  - Due to the author Eric Wastl's [preferences](https://adventofcode.com/2025/about#faq_copying), the input files are not included, you can download them from the Advent of Code website.
+  - Input files are expected to be named as `dec_XX_input.txt` (where XX is the day number, e.g. 01).
 
 ## Contributing
 
