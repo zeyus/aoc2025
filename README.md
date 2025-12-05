@@ -31,20 +31,14 @@ This repository contains my solutions to the Advent of Code 2025 challenges, imp
 
 ## Solutions
 
-### Day 1
-- [Day 1 Solution Code](bin/calendar/dec_01.dart)
+| Day | Code                     | AOC Link   |
+|-----|--------------------------|------------|
+| 1   | [dec_01.dart](bin/calendar/dec_01.dart) | [Day 1](https://adventofcode.com/2025/day/1) |
+| 2   | [dec_02.dart](bin/calendar/dec_02.dart) | [Day 2](https://adventofcode.com/2025/day/2) |
+| 3   | [dec_03.dart](bin/calendar/dec_03.dart) | [Day 3](https://adventofcode.com/2025/day/3) |
+| 4   | [dec_04.dart](bin/calendar/dec_04.dart) | [Day 4](https://adventofcode.com/2025/day/4) |
+| 5   | [dec_05.dart](bin/calendar/dec_05.dart) | [Day 5](https://adventofcode.com/2025/day/5) |
 
-### Day 2
-- [Day 2 Solution Code](bin/calendar/dec_02.dart)
-
-### Day 3
-- [Day 3 Solution Code](bin/calendar/dec_03.dart)
-
-### Day 4
-- [Day 4 Solution Code](bin/calendar/dec_04.dart)
-
-### Day 5
-- [Day 5 Solution Code](bin/calendar/dec_05.dart)
 
 
 ## Contributing
