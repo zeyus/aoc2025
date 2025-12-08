@@ -1,4 +1,4 @@
-// https://adventofcode.com/2025/day/5
+// https://adventofcode.com/2025/day/7
 
 import 'dart:io';
 import '../common/matrix2d.dart';
