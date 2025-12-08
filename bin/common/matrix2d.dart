@@ -54,6 +54,14 @@ class Matrix2D<T> {
     }
   }
 
+  Matrix2D<T> copy() {
+    final List<List<T>> newData = [];
+    for (var row in data) {
+      newData.add(List<T>.from(row));
+    }
+    return Matrix2D<T>(newData, wrapping: wrapping, verbose: verbose);
+  }
+
   List<T> operator [](List<dynamic> args) {
     if (args.isEmpty) {
       throw ArgumentError('No indices provided for matrix access.');
