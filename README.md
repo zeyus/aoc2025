@@ -24,7 +24,7 @@ This repository contains my solutions to the Advent of Code 2025 challenges, imp
 ## Project Structure
 
 - `bin/calendar/dec_XX.dart`: Contains the solution for Day XX.
-- `bin/common/`: Contains a registry (maybe some other reusable code later).
+- `bin/common/`: Contains a registry, Matrix2D.
 - `bin/resources/`: Contains input files for each day's challenge.
   - Due to the author Eric Wastl's [preferences](https://adventofcode.com/2025/about#faq_copying), the input files are not included, you can download them from the Advent of Code website.
   - Input files are expected to be named as `dec_XX_input.txt` (where XX is the day number, e.g. 01).
@@ -38,6 +38,9 @@ This repository contains my solutions to the Advent of Code 2025 challenges, imp
 | 3   | [dec_03.dart](bin/calendar/dec_03.dart) | [Day 3](https://adventofcode.com/2025/day/3) |
 | 4   | [dec_04.dart](bin/calendar/dec_04.dart) | [Day 4](https://adventofcode.com/2025/day/4) |
 | 5   | [dec_05.dart](bin/calendar/dec_05.dart) | [Day 5](https://adventofcode.com/2025/day/5) |
+| 6   | [dec_06.dart](bin/calendar/dec_06.dart) | [Day 6](https://adventofcode.com/2025/day/6) |
+| 7   | [dec_07.dart](bin/calendar/dec_07.dart) | [Day 7](https://adventofcode.com/2025/day/7) |
+| 8   | [dec_08.dart](bin/calendar/dec_08.dart) | [Day 8](https://adventofcode.com/2025/day/8) |
 
 
 
