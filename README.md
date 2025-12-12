@@ -21,6 +21,21 @@ This repository contains my solutions to the Advent of Code 2025 challenges, imp
   dart bin/advent_of_code_2025.dart -d 1 # For Day 1
   ```
 
+## Building
+
+If you want to run a compiled verision of the project, just run:
+
+```bash
+dart build cli -o build
+```
+This will create a `build/` directory with the compiled files.
+
+Then you would run it from your terminal like so:
+
+```bash
+./build/bundle/bin/advent_of_code_2025 -d 1
+```
+
 ## Project Structure
 
 - `bin/calendar/dec_XX.dart`: Contains the solution for Day XX.
@@ -41,8 +56,9 @@ This repository contains my solutions to the Advent of Code 2025 challenges, imp
 | 6   | [dec_06.dart](bin/calendar/dec_06.dart) | [Day 6](https://adventofcode.com/2025/day/6) |
 | 7   | [dec_07.dart](bin/calendar/dec_07.dart) | [Day 7](https://adventofcode.com/2025/day/7) |
 | 8   | [dec_08.dart](bin/calendar/dec_08.dart) | [Day 8](https://adventofcode.com/2025/day/8) |
+| 9[^1]   | [dec_09.dart](bin/calendar/dec_09.dart) | [Day 9](https://adventofcode.com/2025/day/9) |
 
-
+[^1]: I solved part 1 no problems, but I needed a bit of help with part 2 after trying and failing a bunch of times.
 
 ## Contributing
 

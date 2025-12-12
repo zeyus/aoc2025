@@ -1,9 +1,10 @@
 class Matrix2D<T> {
-  final List<List<T>> data = [];
+  List<List<T>> data = [];
   late final int rows;
   late final int cols;
   final bool wrapping;
   final bool verbose;
+  final bool skipValidation;
 
   /// infers row and col size if not provided
   Matrix2D(
@@ -11,9 +12,15 @@ class Matrix2D<T> {
     int? rows,
     int? cols,
     this.wrapping = false,
+    this.skipValidation = false,
     this.verbose = false,
   }) {
     if (matrix != null) {
+      if (!skipValidation) {
+        this.rows = matrix.length;
+        this.cols = matrix[0].length;
+        data = matrix;
+      }
       if (rows != null) {
         this.rows = rows;
       } else {
