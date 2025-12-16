@@ -10,6 +10,7 @@ import 'dec_06.dart';
 import 'dec_07.dart';
 import 'dec_08.dart';
 import 'dec_09.dart';
+import 'dec_10.dart';
 export '../common/day_registry.dart';
 
 bool registerDays() {
@@ -22,6 +23,7 @@ bool registerDays() {
   DayRegistry.register(7, dec_07);
   DayRegistry.register(8, dec_08);
   DayRegistry.register(9, dec_09);
+  DayRegistry.register(10, dec_10);
   return true;
 }
 
