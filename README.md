@@ -48,16 +48,16 @@ Then you would run it from your terminal like so:
 
 | Day | Code                                    | AOC Link                                       | Stars  |
 |----:|-----------------------------------------|------------------------------------------------|:------:|
-| 1   | [dec_01.dart](bin/calendar/dec_01.dart) | [Day 1](https://adventofcode.com/2025/day/1)   | \* \*  |
-| 2   | [dec_02.dart](bin/calendar/dec_02.dart) | [Day 2](https://adventofcode.com/2025/day/2)   | \* \*  |
-| 3   | [dec_03.dart](bin/calendar/dec_03.dart) | [Day 3](https://adventofcode.com/2025/day/3)   | \* \*  |
-| 4   | [dec_04.dart](bin/calendar/dec_04.dart) | [Day 4](https://adventofcode.com/2025/day/4)   | \* \*  |
-| 5   | [dec_05.dart](bin/calendar/dec_05.dart) | [Day 5](https://adventofcode.com/2025/day/5)   | \* \*  |
-| 6   | [dec_06.dart](bin/calendar/dec_06.dart) | [Day 6](https://adventofcode.com/2025/day/6)   | \* \*  |
-| 7   | [dec_07.dart](bin/calendar/dec_07.dart) | [Day 7](https://adventofcode.com/2025/day/7)   | \* \*  |
-| 8   | [dec_08.dart](bin/calendar/dec_08.dart) | [Day 8](https://adventofcode.com/2025/day/8)   | \* \*  |
-| 9   | [dec_09.dart](bin/calendar/dec_09.dart) | [Day 9](https://adventofcode.com/2025/day/9)   | \*[^a] |
-| 10  | [dec_10.dart](bin/calendar/dec_10.dart) | [Day 10](https://adventofcode.com/2025/day/10) | \*[^b] |
+| 1   | [dec_01.dart](bin/calendar/dec_01.dart) | [Day 1](https://adventofcode.com/2025/day/1)   | \* \*     |
+| 2   | [dec_02.dart](bin/calendar/dec_02.dart) | [Day 2](https://adventofcode.com/2025/day/2)   | \* \*     |
+| 3   | [dec_03.dart](bin/calendar/dec_03.dart) | [Day 3](https://adventofcode.com/2025/day/3)   | \* \*     |
+| 4   | [dec_04.dart](bin/calendar/dec_04.dart) | [Day 4](https://adventofcode.com/2025/day/4)   | \* \*     |
+| 5   | [dec_05.dart](bin/calendar/dec_05.dart) | [Day 5](https://adventofcode.com/2025/day/5)   | \* \*     |
+| 6   | [dec_06.dart](bin/calendar/dec_06.dart) | [Day 6](https://adventofcode.com/2025/day/6)   | \* \*     |
+| 7   | [dec_07.dart](bin/calendar/dec_07.dart) | [Day 7](https://adventofcode.com/2025/day/7)   | \* \*     |
+| 8   | [dec_08.dart](bin/calendar/dec_08.dart) | [Day 8](https://adventofcode.com/2025/day/8)   | \* \*     |
+| 9   | [dec_09.dart](bin/calendar/dec_09.dart) | [Day 9](https://adventofcode.com/2025/day/9)   | \* \*[^a] |
+| 10  | [dec_10.dart](bin/calendar/dec_10.dart) | [Day 10](https://adventofcode.com/2025/day/10) | \*[^b]    |
 
 [^a]: I solved part 1 no problems, but I needed a bit of help with part 2 after trying and failing a bunch of times.
 [^b]: Only part 1 solved. Part 2 test passes, but obviously my solution is not anywhere near efficient enough.
