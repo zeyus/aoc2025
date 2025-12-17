@@ -58,9 +58,14 @@ Then you would run it from your terminal like so:
 | 8   | [dec_08.dart](bin/calendar/dec_08.dart) | [Day 8](https://adventofcode.com/2025/day/8)   | \* \*     |
 | 9   | [dec_09.dart](bin/calendar/dec_09.dart) | [Day 9](https://adventofcode.com/2025/day/9)   | \* \*[^a] |
 | 10  | [dec_10.dart](bin/calendar/dec_10.dart) | [Day 10](https://adventofcode.com/2025/day/10) | \*[^b]    |
+| 11  | [dec_11.dart](bin/calendar/dec_11.dart) | [Day 11](https://adventofcode.com/2025/day/11) | \*[^c]    |
+| 12  | [dec_12.dart](bin/calendar/dec_12.dart) | [Day 12](https://adventofcode.com/2025/day/12) | -[^d]     |
 
 [^a]: I solved part 1 no problems, but I needed a bit of help with part 2 after trying and failing a bunch of times.
 [^b]: Only part 1 solved. Part 2 test passes, but obviously my solution is not anywhere near efficient enough.
+[^c]: Part two theoretically works, but in practice it takes too long.
+[^d]: Did not start.
+
 
 ## Contributing
 

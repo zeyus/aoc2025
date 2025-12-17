@@ -1,7 +1,6 @@
 // https://adventofcode.com/2025/day/10
 
 import 'dart:io';
-import 'dart:collection';
 
 class PriorityQueue<E> {
   final List<E> _items = [];
